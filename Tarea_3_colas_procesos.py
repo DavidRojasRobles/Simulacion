@@ -1,10 +1,11 @@
 import numpy as np
 
 class Proceso:
-    IdProc = 0
-    def __init__(self, tiempo, estado):
-        Proceso.IdProc += 1
-        self.IdProc = Proceso.IdProc
+    #IdProc = 0
+    def __init__(self, i, tiempo, estado):
+        #Proceso.IdProc += 1
+        #self.IdProc = Proceso.IdProc
+        self.IdProc = i
         self.tiempo = tiempo
 
     def getIdProc(self):
@@ -31,15 +32,15 @@ class RoundRobin:
         self.numProc = numProc
         self.tiempoTotal = 0
 
-    def crearProceso(self):
-        p = Proceso(np.random.randint(1,100), True)
+    def crearProceso(self, i):
+        p = Proceso(i, np.random.randint(1,100), True)
         print "Proceso %d --> Tiempo = %d"%(p.getIdProc(), p.getTiempo())
         return p
 
     def crearCola(self):
         self.cola = Cola()
         for i in range(self.numProc):
-            self.cola.agregar(self.crearProceso())
+            self.cola.agregar(self.crearProceso(i+1))
 
     def procesar(self):
         self.crearCola()
@@ -92,7 +93,7 @@ class Cola:
 
 
 n = 3
-q = 10
+q = 15
 
 turnos = RoundRobin(q, n).procesar()
 print "Se completo en un total de %d turnos"%(turnos)
