@@ -57,3 +57,7 @@ for i in range(pisos*2*viajes):
         # if (i+1)%pisos*2 == 0:
         #     print i+1, dict(sorted(registro.items(), reverse = True))
         print i+1, registro
+
+
+
+
