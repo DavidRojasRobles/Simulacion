@@ -41,8 +41,11 @@ class Ascensor:
         if self.piso > 0:
             self.piso -=1
 
-pisos = 4
-viajes = 3
+pisos = int(raw_input('¿Cuantos pisos?'))
+viajes = int(raw_input('¿Cuantos viajes?'))
+
+# pisos = 4
+# viajes = 3
 ascensor = Ascensor(pisos)
 registro = {}
 for i in range(pisos*2*viajes):

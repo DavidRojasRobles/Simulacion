@@ -92,8 +92,12 @@ class Cola:
         return len(self.items)
 
 
-n = 3
-q = 15
+n = int(raw_input('¿Cuantos procesos?'))
+q = int(raw_input('¿Cual es la duracion del quantum?'))
+
+
+#n = 3
+#q = 15
 
 turnos = RoundRobin(q, n).procesar()
 print "Se completo en un total de %d turnos"%(turnos)
