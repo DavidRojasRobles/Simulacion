@@ -1,10 +1,7 @@
 import numpy as np
 
 class Proceso:
-    #IdProc = 0
     def __init__(self, i, tiempo, estado):
-        #Proceso.IdProc += 1
-        #self.IdProc = Proceso.IdProc
         self.IdProc = i
         self.tiempo = tiempo
 
@@ -31,10 +28,13 @@ class RoundRobin:
         self.quantum = quantum
         self.numProc = numProc
         self.tiempoTotal = 0
+        self.tupla = []
+        resultados.append(self.tupla)
 
     def crearProceso(self, i):
         p = Proceso(i, np.random.randint(1,100), True)
         print "Proceso %d --> Tiempo = %d"%(p.getIdProc(), p.getTiempo())
+        self.tupla.append(p.getTiempo())
         return p
 
     def crearCola(self):
@@ -57,6 +57,7 @@ class RoundRobin:
 
             self.cola.avanzar();
 
+        self.tupla.append(turnos)
         return turnos
 
 class Cola:
@@ -91,13 +92,11 @@ class Cola:
     def tamano(self):
         return len(self.items)
 
+n = int(raw_input('Cuantos procesos?\t'))
+q = int(raw_input('Cual es la duracion del quantum?\t'))
 
-n = int(raw_input('¿Cuantos procesos?'))
-q = int(raw_input('¿Cual es la duracion del quantum?'))
-
-
-#n = 3
-#q = 15
+# n = 2
+# q = 20
 
 turnos = RoundRobin(q, n).procesar()
-print "Se completo en un total de %d turnos"%(turnos)
+print "Se completo en un total de %d turnos\n"%(turnos)
