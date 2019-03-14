@@ -1,3 +1,10 @@
+
+#Este programa simula la espera de pacientes en una sala de urgencias, categorizados 
+#partiendo de tres prioridades. En la sala puede haber entre tres y 5 doctores y se 
+#asegura que se atiendan entre 10 y 30 pacientes, cuyas prioridades son asignadas
+#aleatoriamente. El programa muestra el tiempo de espera promedio de los pacientes por prioridad
+#para dos escenarios, donde varían el número de pacientes y de médicos presentes en la sala.
+
 import numpy as np
 import heapq
 
