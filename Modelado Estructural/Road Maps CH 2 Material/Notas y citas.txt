@@ -1,0 +1,18 @@
+The First Three Hours:
+
+- System dynamics can provide a common language for
+mathematics, biology, ecology, physics, history and literature.
+
+- Primera pág es una intro a dinámica de sistemas y definiciones útiles para expo.
+
+- Tell me and I will forget.
+Show me and I may remember.
+Involve me and I will understand.
+
+----------------------------------------------------------
+
+PARA LOS MODELOS:
+
+1. Añadir faucet control and drain control en bañera
+
+2. Comentar y arreglar gráfica de Velocidad (se creó un archivo nuevo)
