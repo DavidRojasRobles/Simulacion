@@ -13,6 +13,23 @@ Involve me and I will understand.
 
 PARA LOS MODELOS:
 
-1. Añadir faucet control and drain control en bañera
 
-2. Comentar y arreglar gráfica de Velocidad (se creó un archivo nuevo)
+Fuente: The First Three Hours - Matthew C. Halbower
+Actualizado: Junio 6 de 2019
+
+
+1. FALTA - Añadir faucet control and drain control en bañera
+
+2. CHECKED - Comentar y arreglar gráfica de Velocidad (se creó un archivo nuevo)
+
+3. CHECKED - Creé modelo aceleración
+
+4. CHECKED - Actualicé modelo caída libre sin resistencia
+
+5. CHECKED - Actualicé modelo alcanzar el tren
+
+6. FALTA - Mirar caída libre conservación de energía
+
+
+
+
