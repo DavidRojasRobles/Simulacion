@@ -15,7 +15,11 @@ PARA LOS MODELOS:
 
 
 Fuente: The First Three Hours - Matthew C. Halbower
-Actualizado: Junio 6 de 2019
+Actualizado: Junio 1 de 2019
+
+
+Fuente: Beginner Modeling Exercises - Michael Shayne Gary
+Actualizado: Junio 3 de 2019
 
 
 1. FALTA - Añadir faucet control and drain control en bañera
@@ -29,6 +33,10 @@ Actualizado: Junio 6 de 2019
 5. CHECKED - Actualicé modelo alcanzar el tren
 
 6. FALTA - Mirar caída libre conservación de energía
+
+7. CHECKED - Terminar modelo intereses (segundo y tercer modelo)
+
+8. FALTA - Flujos de libros?
 
 
 
