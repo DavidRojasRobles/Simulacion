@@ -22,6 +22,17 @@ Fuente: Beginner Modeling Exercises - Michael Shayne Gary
 Actualizado: Junio 3 de 2019
 
 
+Fuente: Una Introducción a la Realimentación - Leslie A. Martin
+Actualizado: Junio 4 de 2019
+
+
+Representa crecimiento poblacional de bacterias ecoli mediante realimentación positiva.
+
+Fuente: Una Introducción a la Realimentación - Leslie A. Martin
+Actualizado: Junio 4 de 2019
+
+
+
 1. FALTA - Añadir faucet control and drain control en bañera
 
 2. CHECKED - Comentar y arreglar gráfica de Velocidad (se creó un archivo nuevo)
@@ -32,11 +43,15 @@ Actualizado: Junio 3 de 2019
 
 5. CHECKED - Actualicé modelo alcanzar el tren
 
-6. FALTA - Mirar caída libre conservación de energía
+6. CHECKED - Mirar caída libre conservación de energía
 
 7. CHECKED - Terminar modelo intereses (segundo y tercer modelo)
 
-8. FALTA - Flujos de libros?
+8. CHECKED - Flujos de libros?
+
+9. CHECKED - Terminar variables cigarrillos
+
+10. CHECKED - Terminar vocabulario
 
 
 
