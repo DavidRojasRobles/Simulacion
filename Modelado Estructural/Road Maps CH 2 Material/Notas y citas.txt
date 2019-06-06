@@ -33,7 +33,7 @@ Actualizado: Junio 4 de 2019
 
 
 
-1. FALTA - Añadir faucet control and drain control en bañera
+1. CHECKED _-_ - Añadir faucet control and drain control en bañera
 
 2. CHECKED - Comentar y arreglar gráfica de Velocidad (se creó un archivo nuevo)
 
@@ -52,6 +52,7 @@ Actualizado: Junio 4 de 2019
 9. CHECKED - Terminar variables cigarrillos
 
 10. CHECKED - Terminar vocabulario
+
 
 
 
