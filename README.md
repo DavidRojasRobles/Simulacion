@@ -1,4 +1,4 @@
-# Simulacion
+# Simulación
 
 Proyectos de Simulación Digital y Modelado Estructural, empleando principalmente la dinámica de sistemas.
 
