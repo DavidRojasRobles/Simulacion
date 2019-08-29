@@ -1,0 +1,12 @@
+Errores Evolución:
+
+Para los siguientes errores no se puede guardar un modelo en específico, pero se aconseja utilizar el modelo ARROZ_V008 - error.
+
+1. Graficas congeladas.
+
+En el momento en que se define algún valor muy grande, por ejemplo en el parámetro AREA = 25E50, y se simula, aparece el error "Error Desconocido! Error interno de evolucion con mensaje "Invalid floating point operation". Si se corrije el valor del parámetro y se simula nuevamente, la gráfica no cambia. Sin embargo, si se guarda el modelo y se cierra el programa y se vuelve a abrir, la simulación funciona sin necesidad de realizar más cambios.
+
+
+2. Análisis de sensibilidad con variación de parámetros pierde configuración.
+
+Si se abre una ventanade análisis de sensibilidad con variación de parámetros y se simula, por ejemplo, el nivel Energía con una cualquier variación se da la simulación normal. Pero si se oprime el botón de trayectorias nuevamente, se observa que ya no está seleccionado el nivel Energía y el valor de variación ha desaparecido.
